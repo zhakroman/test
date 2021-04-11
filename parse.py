@@ -1,3 +1,8 @@
+import re
+import requests as rqs
+import pandas as pd
+from bs4 import BeautifulSoup
+
 class ParseNews:
   
     def __init__(self):
